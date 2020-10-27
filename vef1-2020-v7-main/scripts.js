@@ -114,6 +114,7 @@ function encode(str,numshift) {
       }
       else if(check === b){
         result = result.concat(LETTERS.charAt(k+numshift))
+      }
     }  
   }
   alert(result)
@@ -143,6 +144,7 @@ function decode(str, n) {
       }
       else if(check === b){
         result = result.concat(LETTERS.charAt(k-numshift))
+      }
     }  
   }
   alert(result)
